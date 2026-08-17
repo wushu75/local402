@@ -210,7 +210,7 @@ Want to shape it? [Open an issue.](#-contributing)
 Contributions, ideas, and bug reports are all welcome — this is meant to be a friendly little tool.
 
 ```bash
-git clone https://github.com/your-org/local402.git
+git clone https://github.com/wushu75/local402.git
 cd local402
 npm install
 npm run dev -- --target http://localhost:3000   # run from source
@@ -239,7 +239,7 @@ No contribution is too small — even a typo fix helps.
 If `local402` saved you from standing up a payment stack just to test an agent,
 drop a star — it genuinely helps other people find it.
 
-**[⭐ Star local402 on GitHub](https://github.com/your-org/local402)**
+**[⭐ Star local402 on GitHub](https://github.com/wushu75/local402)**
 
 <br />
 
