@@ -4,11 +4,12 @@
 
 ### One-command local paywall for AI agents
 
-Drop an HTTP **402** in front of any local server or MCP tool — so you can test
-paying AI agents with no wallet, no chain, and no real money.
+**Turn any local server into a payable resource in seconds.**
+Perfect for testing agents that need to pay before they can access your API or MCP tool.
 
 <br />
 
+<!-- Upload your demo clip to assets/demo.gif in this repo, then this renders automatically. -->
 ![local402 demo](assets/demo.gif)
 
 <br />
@@ -17,8 +18,12 @@ paying AI agents with no wallet, no chain, and no real money.
 npx local402 --target http://localhost:3000 --price 0.001
 ```
 
-[![npm](https://img.shields.io/npm/v/local402?color=00ff9d&label=npm&logo=npm)](https://www.npmjs.com/package/local402)
+<br />
+
+[![npm version](https://img.shields.io/npm/v/local402?color=00ff9d&label=npm&logo=npm)](https://www.npmjs.com/package/local402)
 [![license](https://img.shields.io/badge/license-MIT-00ff9d.svg)](./LICENSE)
+[![node](https://img.shields.io/badge/node-%3E%3D18-00ff9d.svg?logo=node.js)](https://nodejs.org)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-00ff9d.svg)](#-contributing)
 
 **[Website](https://wushu75.github.io/local402/) · [npm](https://www.npmjs.com/package/local402) · [Report a bug](https://github.com/wushu75/local402/issues)**
 
@@ -203,7 +208,7 @@ local402 starts simple on purpose. The plan:
 - [ ] **v0.4 — Per-route pricing.** Different prices for different paths and methods.
 - [ ] **v0.5 — Usage dashboard.** Live TUI of requests, payments, and revenue.
 
-Want to shape it? [Open an issue.](#-contributing)
+Want to shape it? [Open an issue.](https://github.com/wushu75/local402/issues)
 
 ---
 
