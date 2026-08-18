@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wushu75.github.io/local402/sitemap.xml
