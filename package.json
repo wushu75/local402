@@ -16,13 +16,13 @@
   ],
   "license": "MIT",
   "author": "the local402 contributors",
-  "homepage": "https://github.com/wushu75/local402#readme",
+  "homepage": "https://github.com/your-org/local402#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wushu75/local402.git"
+    "url": "https://github.com/your-org/local402.git"
   },
   "bugs": {
-    "url": "https://github.com/wushu75/local402/issues"
+    "url": "https://github.com/your-org/local402/issues"
   },
   "type": "commonjs",
   "main": "dist/index.js",
@@ -41,7 +41,8 @@
     "build": "tsc",
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js",
-    "prepublishOnly": "npm run build"
+    "test": "node --import tsx --test --test-force-exit test/*.test.ts",
+    "prepublishOnly": "npm run build && npm test"
   },
   "dependencies": {
     "commander": "^12.1.0"
